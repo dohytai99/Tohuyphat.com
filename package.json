@@ -1,0 +1,38 @@
+{
+  "name": "dntn-sxtm-to-huy-phat-website",
+  "version": "1.0.0",
+  "description": "Website doanh nghiệp chuyên nghiệp cho Doanh Nghiệp Tư Nhân Sản Xuất Thương Mại Tô Huy Phát",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'Website is ready to deploy'",
+    "test": "echo 'Open index.html in browser to test'"
+  },
+  "keywords": [
+    "business",
+    "website",
+    "vietnamese",
+    "responsive",
+    "modern",
+    "to-huy-phat"
+  ],
+  "author": "Tô Huy Phát",
+  "license": "Proprietary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/to-huy-phat-website.git"
+  },
+  "homepage": "https://tohuyphat.com",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
